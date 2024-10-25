@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Loja da MBA USP/Esalq</title>
+	<meta name="description" content="Projeto da aula de front-end da USP/Esalq">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/assets/reset.css">
+	<link rel="stylesheet" href="/assets/style.css">
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="/assets/imgs/favicon.ico">
+
+	<!-- TailwindCSS -->
+	<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+	<header class="flex justify-center items-center w-full bg-[#0d3db2]">
+		<div class="max-w-7xl w-full p-5 flex justify-between items-center">
+			<a href="/" class="bg-white p-2 rounded-md  flex flex-col items-center hover:opacity-80 transition-opacity">
+				<span class="text-4xl font-bold">LOJA</span>
+				<span class="text-sm">MBA USP/Esalq</span>
+			</a>
+			<nav class="hidden md:flex">
+				<ul class="flex gap-5">
+					<li><a href="" class="black p-2 font-semibold bg-white rounded-md hover:opacity-80 transition-opacity">Loja</a></li>
+					<li><a href="" class="black p-2 font-semibold bg-white rounded-md hover:opacity-80 transition-opacity">Livros</a></li>
+					<li><a href="" class="black p-2 font-semibold bg-white rounded-md hover:opacity-80 transition-opacity">Eletrônicos</a></li>
+					<li><a href="" class="black p-2 font-semibold bg-white rounded-md hover:opacity-80 transition-opacity">Presentes</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main class="flex justify-center items-center w-full">
+		<section class="max-w-7xl w-full gap-5 p-5 ">
+
+			<h1 class="text-3xl mb-5 font-bold">Confira os nossos produtos</h1>
+			<ul class="grid sm:grid-cols-3 gap-5" id="produtos-lista">
+				<!-- Conteudo puxado via JavaScript -->
+			</ul>
+		</section>
+	</main>
+
+	<footer class="bg-[#ddd] flex justify-center items-center w-full">
+		<div class="max-w-7xl w-full p-5 flex justify-between items-center">
+			<p class="font-bold">Copyrigth &copy; 2024 - Loja da MBA USP/Esalq</p>
+		</div>
+	</footer>
+
+	<script src="/assets/script.js"></script>
+</body>
+
+</html>
